@@ -1,0 +1,147 @@
+:root {
+  /* TEXT */
+  --color-text-primiry: rgba(20, 20, 20, 1);
+  --color-text-secondary: rgba(85, 85, 85, 1);
+  --primiry-brand-color: rgba(92, 134, 146, 1);
+  /* BACKGROUND */
+  --brand-color-background: rgba(235, 243, 245, 1);
+  /* BUTTON */
+
+  --brand-background-color-btn: rgba(122, 156, 165, 1);
+
+  --white-color: rgba(255, 255, 255, 1);
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* HERO  SECTION */
+.heroSection {
+  height: 925px;
+  background-color: var(--brand-color-background);
+}
+.heroSectionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 665px;
+  /* max-width: 900px; */
+  gap: 100px;
+}
+.textContant {
+  max-width: 510px;
+}
+.greetingText {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.54;
+  text-transform: uppercase;
+  color: var(--primiry-brand-color);
+}
+.heroTitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.15;
+  margin-bottom: 35px;
+}
+.heroText {
+  font-family: Manrope;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.68;
+  margin-bottom: 35px;
+}
+.heroBtn {
+  color: var(--white-color);
+  background-color: var(--primiry-brand-color);
+  width: 200px;
+  height: 50px;
+  font-weight: 800;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* .box {
+  width: 550px;
+  height: 545px;
+  border: 1px solid gray;
+} */
+
+.heroImg {
+  width: 550px;
+}
+
+.heroDecoration {
+width: 400px;
+height: 100%;
+  background-color: #1E2C30;
+}
+
+
+
+
+
+
+
+/* treatment_section */
+
+.treatmentSection {
+  height: 790px;
+}
+
+.treatmentList {
+  display: flex;
+  /* margin: 0 auto; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  gap: 80px;
+}
+.treatmentItem {
+  width: 330px;
+  height: 489px;
+}
+.treatmentImg {
+  margin-bottom: 20px;
+}
+.treatmentSubtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  margin-bottom: 20px;
+}
+.treatmentText {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+}
+.treatmentBtn {
+  background-color: var(--white-color);
+  width: 180px;
+  height: 55px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  /* border: none; */
+  color: var(--color-text-primiry);
+  text-transform: uppercase;
+  border-radius: 2px;
+
+  border: 2px solid var(--primiry-brand-color);
+  cursor: pointer;
+}
